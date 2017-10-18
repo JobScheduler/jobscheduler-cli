@@ -1,8 +1,7 @@
 package cmd
 
 import (
-	"fmt"
-
+	"../utils"
 	"github.com/spf13/cobra"
 )
 
@@ -12,8 +11,12 @@ var initCmd = &cobra.Command{
 	Short: "Initialize the CLI",
 	Long:  `Initialize the CLI`,
 	Run: func(cmd *cobra.Command, args []string) {
+		if len(args) != 1 {
+			return
+		}
 
-		fmt.Println("Initialize the CLI")
+		err := utils.SetAPIToken(args[0])
+		utils.FatalIfErr(err)
 
 	},
 }

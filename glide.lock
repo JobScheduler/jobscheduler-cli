@@ -1,6 +1,8 @@
-hash: e00d93b2b78442bdb8d60957da100cb95446bbcb78e8c96546a54477b972d3ed
-updated: 2017-10-18T15:48:39.562640845+02:00
+hash: 2f832d7500c581152df9ef007f4ad08adf31df8a61a9c5b1fe082ed3526148b1
+updated: 2017-10-18T18:21:59.196029902+02:00
 imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
 - name: github.com/fsnotify/fsnotify
   version: 4da3e2cfbabc9f751898f250b49f2439785783a1
 - name: github.com/hashicorp/hcl
