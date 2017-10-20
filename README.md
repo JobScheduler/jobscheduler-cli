@@ -1,6 +1,6 @@
 # JobScheduler CLI
 
-The official JobScheduler.xyz CLI
+The official [jobscheduler.xyz](https://jobscheduler.xyz) CLI
 
 ## Usage
 
@@ -8,4 +8,8 @@ The official JobScheduler.xyz CLI
 jobscheduler init <your_api_token>
 jobscheduler jobs list
 jobscheduler help
+```
+## Build
+```bash
+make
 ```

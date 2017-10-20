@@ -22,7 +22,7 @@ var JobsListCmd = &cobra.Command{
 		jobs := client.GetJobs()
 
 		table := tablewriter.NewWriter(os.Stdout)
-		table.SetHeader([]string{"Name", "Status", "ID", "Cron Rule", "Timezone"})
+		table.SetHeader([]string{"Name", "Status", "ID", "Cron Rule", "Timezone", "Start Time"})
 
 		for _, job := range jobs {
 			var status string
@@ -31,7 +31,7 @@ var JobsListCmd = &cobra.Command{
 			} else {
 				status = fmt.Sprint(aurora.Red("incative"))
 			}
-			table.Append([]string{job.Name, status, job.ID, job.CronRule, job.Timezone})
+			table.Append([]string{job.Name, status, job.ID, job.CronRule, job.Timezone, job.StartTime})
 		}
 		table.Render()
 

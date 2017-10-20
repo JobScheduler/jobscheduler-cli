@@ -22,4 +22,6 @@ func init() {
 	jobsCmd.AddCommand(jobs.JobsListCmd)
 	jobsCmd.AddCommand(jobs.JobsShowCmd)
 	jobsCmd.AddCommand(jobs.JobsUpdateCmd)
+	jobsCmd.AddCommand(jobs.JobsEnableCmd)
+	jobsCmd.AddCommand(jobs.JobsDisableCmd)
 }
