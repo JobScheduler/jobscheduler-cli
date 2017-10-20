@@ -9,3 +9,7 @@ import:
   version: ^0.3.0
 - package: github.com/inconshreveable/mousetrap
   version: ^1.0.0
+- package: github.com/parnurzeal/gorequest
+  version: ^0.2.15
+- package: github.com/olekukonko/tablewriter
+- package: github.com/logrusorgru/aurora

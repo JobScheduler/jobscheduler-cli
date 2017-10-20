@@ -1,5 +1,5 @@
-hash: a30a360ba48b6ee342daf9fcaa792c001257652f0364f34c37c232be7938f469
-updated: 2017-10-19T11:07:38.758730429+02:00
+hash: 6278aa7fe05aab757ddb11b7f3ed50af868f01675508331b95612e8c737bdafe
+updated: 2017-10-20T13:06:19.72644031+02:00
 imports:
 - name: github.com/BurntSushi/toml
   version: b26d9c308763d68093482582cea63d69be07a0f0
@@ -18,12 +18,24 @@ imports:
   - json/token
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/logrusorgru/aurora
+  version: b9c3722b64a1976e0624448ee7f5a0744b8cf629
 - name: github.com/magiconair/properties
   version: 8d7837e64d3c1ee4e54a880c5a920ab4316fc90a
+- name: github.com/mattn/go-runewidth
+  version: 97311d9f7767e3d6f422ea06661bc2c7a19e8a5d
 - name: github.com/mitchellh/mapstructure
   version: 06020f85339e21b2478f756a78e295255ffa4d6a
+- name: github.com/moul/http2curl
+  version: 9ac6cf4d929b2fa8fd2d2e6dec5bb0feb4f4911d
+- name: github.com/olekukonko/tablewriter
+  version: a7a4c189eb47ed33ce7b35f2880070a0c82a67d4
+- name: github.com/parnurzeal/gorequest
+  version: a578a48e8d6ca8b01a3b18314c43c6716bb5f5a3
 - name: github.com/pelletier/go-toml
   version: 2009e44b6f182e34d8ce081ac2767622937ea3d4
+- name: github.com/pkg/errors
+  version: f15c970de5b76fac0b59abb32d62c17cc7bed265
 - name: github.com/spf13/afero
   version: e67d870304c4bca21331b02f414f970df13aa694
   subpackages:
@@ -37,9 +49,13 @@ imports:
 - name: github.com/spf13/jwalterweatherman
   version: 12bd96e66386c1960ab0f74ced1362f66f552f7b
 - name: github.com/spf13/pflag
-  version: 1f33b80956cde38911d1f23d764deb8d77a649ce
+  version: 97afa5e7ca8a08a383cb259e06636b5e2cc7897f
 - name: github.com/spf13/viper
   version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+- name: golang.org/x/net
+  version: aabf50738bcdd9b207582cbe796b59ed65d56680
+  subpackages:
+  - publicsuffix
 - name: golang.org/x/sys
   version: 8dbc5d05d6edcc104950cc299a1ce6641235bc86
   subpackages:
